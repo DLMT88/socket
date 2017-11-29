@@ -3,7 +3,7 @@ package clientstr;
 import java.io.*;
 import java.net.*;
 public class ClientStr {
-  String nomeServer = "192.168.1.63";                                         
+  String nomeServer = "localhost";                                         
   int portaServer =5002;                                                  
   Socket mioSocket;
   BufferedReader tastiera;                                               
